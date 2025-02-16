@@ -1,0 +1,81 @@
+#charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 {
+
+    text-align: center;
+}
+
+html, body{
+    height: 110vh;
+    width: 100vw;
+    background-color: black;
+    
+    
+}
+
+body{
+     
+    background: url('pacote-imagens-cap25/imagens/mesa2.png') 
+    no-repeat top center;
+    background-size: cover;
+    background-attachment:scroll;
+    
+}
+main{
+    height: 100vh;
+    position: relative;
+    
+}
+
+iframe#tela {
+    position: relative;
+    top: 7px;
+    left: .1px;
+    width: 107px;
+    height:170px;
+}
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 200px;
+    width: 200px;
+    background:  url('pacote-imagens-cap25/imagens/imagescel.jpeg') no-repeat;
+}
+
+section#redes-sociais {
+    text-align:right;
+
+}
+
+section#redes-sociais img {
+    width: 60px;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+    
+
+
+}
+
+section#redes-sociais img:hover {
+   
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 2s;
+    
+
+
+}
