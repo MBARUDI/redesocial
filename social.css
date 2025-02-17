@@ -1,4 +1,4 @@
-#charset "UTF-8";
+
 
 * {
     
@@ -35,4 +35,7 @@
   }
   a:hover {
     background-color: rgb(235, 159, 159);
+  }
+  body {
+    background: linear-gradient(to bottom, #00008B, #ADD8E6);
   }

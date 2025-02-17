@@ -1,4 +1,4 @@
-#charset "UTF-8";
+
 
 * {
     margin: 0px;
@@ -7,19 +7,26 @@
 }
 
 
+section#redes-sociais {
+    text-align: right;
+    padding-right: 50px; /* Adjust this value as needed */
+}
 
 h1 {
 
     text-align: center;
+    background-color: rgb(202, 230, 231);
 }
 
 html, body{
     height: 110vh;
     width: 100vw;
-    background-color: black;
+    background-color: white;
     
-    
+    animation: backgroundMove 10s linear infinite;
 }
+
+ 
 
 body{
      
@@ -27,7 +34,8 @@ body{
     no-repeat top center;
     background-size: cover;
     background-attachment:scroll;
-    
+    background: linear-gradient(to bottom, #00008B, #ADD8E6);
+      
 }
 main{
     height: 100vh;
